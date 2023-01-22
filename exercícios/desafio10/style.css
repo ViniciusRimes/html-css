@@ -1,0 +1,79 @@
+@charset "UTF-8";
+@font-face {
+    font-family: Idroid;
+    src: url(pacote-projeto-d010/fontes/idroid.otf);
+}
+
+body{
+    background-color: rgba(245, 211, 182, 0.555);
+    margin: 0px 0px 0px 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+    background-image: linear-gradient(to top, rgb(6, 104, 6) , rgba(4, 172, 4, 0.555));
+    margin: 0px 5px 0px 0px;
+    padding: 15px;
+}
+
+.cabecalho{
+    text-align: center;
+    color: white;
+    margin: 0px 0px 30px 0px;
+}
+
+h3{
+    font-family: IDroid;
+    color: #0b7901;
+    background-image: linear-gradient(to right, #60fab0, #56e39fbe, #56e39f86, #56e39f49, #56e39f00, white)
+}
+h2#historia{
+    font-family: Idroid;
+    font-size: 30px;
+    color: #0b6103;
+    padding: 5px 0px 0px 0px;
+}
+
+main{
+    background-color: white;
+    margin: -25px 60px 0px 60px;
+    padding: 0px 16px;
+}
+p{
+    text-align: justify;
+    text-indent: 16px;
+    line-height: 1.8;
+}
+.link-texto{
+    background-color: #60fab0;
+    padding: 0px 2px;
+    text-decoration: none;
+}
+.link-texto:active{
+    color: black;
+}
+
+.link-menu{
+    padding: 10px 5px;
+    margin: 0px;
+    text-decoration: none;
+    color: white;
+}
+
+
+nav{
+    padding: 10px 0px 0px 0px;
+}
+
+.link-menu:hover{
+    background-color: #0e8f0e;
+    border-radius: 5px;
+}
+
+strong{
+    color: rgb(4, 107, 4);
+}
+
+.video{
+    background-color: #0b6103;
+}
